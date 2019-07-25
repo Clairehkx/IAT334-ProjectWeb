@@ -36,6 +36,7 @@ h1{
 	font-style: bold;
 	color: black;
 	font-size: 40px;
+	margin: 0 0 0 0;
 }
 
 h2{
@@ -66,16 +67,20 @@ nav{
 	font-weight: normal;
 	text-decoration: none;
 	color: black;
-	padding: 0.5em 1em 0.5em 1em;
+	padding: 0.5em 1em 0em 1em;
 	font-size: 20px;
 	text-align: center;
 }
 
 .nav-item:active,.nav-item:hover{
-	color: rgb(160,200,190);
+	color: #a10000;
 	text-decoration: underline;
 }
 
+.navtop{
+	background: rgba(255,255,255,0.5);
+	z-index: 100;
+}
 .in-text{
 	font-family: 'TTCommons';
 	font-size: 16px;
@@ -213,4 +218,8 @@ code{
 
 .watch img{
 	max-width: 100%;
+}
+
+.logo{
+	margin-top: 0.2em;
 }

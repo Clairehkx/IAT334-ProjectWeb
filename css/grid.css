@@ -4,7 +4,7 @@
 
 [class^='grid-col-']{
 	float: left;
-	margin: 1em 0 1em 0;
+	margin: 0.5em 0 0.5em 0;
 }
 
 .grid-col-main{
@@ -14,7 +14,13 @@
 .grid-col-1of2{
 	width:50%;
 	padding:0 1.5em 0 1.5em;
+
 }
+
+.navbar{
+    text-align: right;
+}
+
 .grid-col-1of3{
 	width:33%;
 	padding:0 1.5em 0 1.5em;
@@ -66,5 +72,5 @@
 	.grid-col-1of5{
 		width:50%;
 	}
-	
+
 }

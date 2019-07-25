@@ -1,0 +1,14 @@
+
+@font-face {
+	font-family: 'TTCommons';
+	font-weight: normal;
+	src: url('../tt-commons/TTCommons-Regular.ttf');
+
+}
+
+@font-face {
+	font-family: 'TTCommons';
+	font-weight: bold;
+	src: url('../tt-commons/TTCommons-Bold.ttf');
+
+}

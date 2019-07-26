@@ -34,14 +34,13 @@ h1{
 	font-family: 'TTCommons';
 	font-weight: bold;
 	font-style: bold;
-	color: black;
+	color: #a10000;
 	font-size: 40px;
 }
 
 h2{
 	font-family: 'TTCommons';
 	font-weight: bold;
-
 	color: #a10000;
 	font-size: 28px;
 }
@@ -52,6 +51,7 @@ h3{
 	font-style: normal;
 	color: black;
 	font-size: 22px;
+	margin-bottom: -1em;
 }
 
 
@@ -69,6 +69,18 @@ nav{
 	padding: 0.5em 1em 0.5em 1em;
 	font-size: 20px;
 	text-align: center;
+}
+
+.logo {
+	font-family: 'TTCommons';
+	font-weight: bold;
+	font-style: bold;
+	color: #a10000;
+	font-size: 40px;
+}
+
+.right {
+	float: right;
 }
 
 .nav-item:active,.nav-item:hover{
@@ -135,7 +147,7 @@ button:active,button:hover{
 p{
 	font-family: 'TTCommons';
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 1em;
 	color:rgb(150,150,150);
 }
 
@@ -194,7 +206,16 @@ figcaption{
 	color: rgb(90,150,170);
 }
 
+.imgbox {
+	display: grid;
+	height: 100%;
+}
 
+img {
+  max-width: 100%;
+  max-height: 80vh;
+	margin: auto;
+}
 
 code{
 	padding: 1em;

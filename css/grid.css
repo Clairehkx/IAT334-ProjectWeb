@@ -56,8 +56,10 @@
 }
 
 .grid-row{
-	width: 100%;
+	width: 90%;
 	display: block;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .grid-row::after{

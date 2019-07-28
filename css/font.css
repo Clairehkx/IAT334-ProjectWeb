@@ -2,13 +2,23 @@
 @font-face {
 	font-family: 'TTCommons';
 	font-weight: normal;
+	font-style: normal;
 	src: url('../tt-commons/TTCommons-Regular.ttf');
 
 }
+/* 
+@font-face {
+	font-family: 'TTCommons';
+	font-weight: lighter;
+	font-style: normal;
+	src: url('../tt-commons/TTCommons-Light.ttf');
+
+} */
 
 @font-face {
 	font-family: 'TTCommons';
 	font-weight: bold;
+	font-style: normal;
 	src: url('../tt-commons/TTCommons-Bold.ttf');
 
 }

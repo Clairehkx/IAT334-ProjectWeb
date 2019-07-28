@@ -78,10 +78,14 @@ nav{
 }
 
 .logo {
-	font-family: 'TTCommons';
+	font-family: 'Brandon Grotesque';
 	font-weight: bold;
 	color: #a10000;
-	font-size: 40px;
+	font-size: 36px;
+}
+
+a.logo:hover {
+	text-decoration: none;
 }
 
 .right {

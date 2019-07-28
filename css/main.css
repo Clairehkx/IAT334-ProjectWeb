@@ -34,7 +34,7 @@ h1{
 	font-family: 'TTCommons';
 	font-weight: bold;
 	font-style: bold;
-	color: black;
+	color: #a10000;
 	font-size: 40px;
 	margin: 0 0 0 0;
 }
@@ -42,8 +42,7 @@ h1{
 h2{
 	font-family: 'TTCommons';
 	font-weight: bold;
-
-	color: #a10000;
+	color: black;
 	font-size: 28px;
 }
 
@@ -53,8 +52,16 @@ h3{
 	font-style: normal;
 	color: black;
 	font-size: 22px;
+	margin-bottom: -1em;
 }
 
+h4{
+	font-family: 'TTCommons';
+	font-weight: normal;
+	font-style: normal;
+	color: black;
+	font-size: 22px;
+}
 
 nav{
 	display: block;
@@ -70,6 +77,18 @@ nav{
 	padding: 0.5em 1em 0em 1em;
 	font-size: 20px;
 	text-align: center;
+}
+
+.logo {
+	font-family: 'TTCommons';
+	font-weight: bold;
+	font-style: bold;
+	color: #a10000;
+	font-size: 40px;
+}
+
+.right {
+	float: right;
 }
 
 .nav-item:active,.nav-item:hover{
@@ -140,7 +159,7 @@ button:active,button:hover{
 p{
 	font-family: 'TTCommons';
 	font-weight: normal;
-	font-size: 14px;
+	font-size: 1em;
 	color:rgb(150,150,150);
 }
 
@@ -148,14 +167,14 @@ ul{
 	color:rgb(150,150,150);
 	font-family: 'TTCommons';
 	font-style: normal;
-	font-size: 14px;
+	font-size: 0.85em;
 }
 
 ol{
 	color: rgb(150,150,150);
 	font-family: 'TTCommons';
 	font-style: normal;
-	font-size: 14px;
+	font-size: 0.85em;
 }
 
 .color-1{
@@ -199,7 +218,19 @@ figcaption{
 	color: rgb(90,150,170);
 }
 
+.imgbox {
+	display: grid;
+	height: 100%;
+}
+img {
+  max-width: 100%;
+  max-height: 80vh;
+	margin: auto;
+}
 
+.bg {
+	max-height: none;
+}
 
 code{
 	padding: 1em;
@@ -222,4 +253,12 @@ code{
 
 .logo{
 	margin-top: 0.2em;
+}
+
+.bg-image {
+	width: 100%;
+	position: absolute;
+  z-index: -1;
+  opacity: 1;
+	transition: opacity .2s linear;
 }

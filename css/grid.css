@@ -9,6 +9,7 @@
 
 .grid-col-main{
 	width:80%;
+  padding:0 1.5em 0 1.5em;
 }
 
 .grid-col-1of2{
@@ -36,9 +37,18 @@
 	width:20%;
 	/*padding:0 1.5em 0 1.5em;*/
 	text-align: center;
-
 }
 
+.jumbo {
+	/*margin: 6em 0 0 6em;*/
+  margin-left: 10vw;
+  margin-top: 15vh;
+}
+
+.grid-text {
+  margin-left: 10vw;
+  margin-top: 25vh;
+}
 
 .grid-icon{
 	width:10%;
@@ -54,10 +64,9 @@
 	content:"";
     display: block;
     clear: both;
-    border-bottom: 1px solid rgb(200,200,200);
 }
 
-@media(max-width:48rem){
+@media(max-width:45rem){
 
 	.grid-col-1of2{
 		width: 100%;
@@ -72,5 +81,8 @@
 	.grid-col-1of5{
 		width:50%;
 	}
+  .jumbo {
+    margin: 0;
+  }
 
 }

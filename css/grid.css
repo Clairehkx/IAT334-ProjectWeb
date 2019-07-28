@@ -9,7 +9,7 @@
 
 .grid-col-main{
 	width:80%;
-  background-color: blue;
+  padding:0 1.5em 0 1.5em;
 }
 
 .grid-col-1of2{

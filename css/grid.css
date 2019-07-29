@@ -10,18 +10,18 @@
 .grid-col-main{
 	width: 100%;
   padding:0 1.5em 0 1.5em;
-  
+
 }
 
 .grid-col-alt{
-  width: 70%;
+  width: 60%;
   padding: 0 1.5em 0 1.5em;
+  margin: auto;
 }
 
 .grid-col-1of2{
 	width:50%;
 	padding:0 1.5em 0 1.5em;
-
 }
 
 .navbar{
@@ -80,7 +80,9 @@
 	.grid-col-1of2{
 		width: 100%;
 	}
-
+  .user-test{
+    width: 100%;
+  }
 	.grid-col-1of3{
 		width: 100%;
 	}

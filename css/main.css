@@ -1,7 +1,6 @@
 body {
-
 	font-family: 'TTCommons';
-	margin: 1rem;
+	margin: 0rem;
 	font-size: 1.25rem;
 }
 
@@ -69,6 +68,12 @@ nav{
 	position: fixed;
   top: 0;
   width: 100%;
+}
+
+.wrapper {
+	background-color: #fafafa;
+	margin: 0;
+	padding: 0;
 }
 
 .nav-item{
@@ -224,7 +229,7 @@ figcaption{
 	font-family: 'TTCommons';
 	font-weight: normal;
 	color: black;
-	margin-top:0.6em;
+	margin-top: -2em;
 	font-size: 0.8em;
 	text-align: center;
 }
@@ -235,14 +240,21 @@ figcaption{
 }
 
 .imgbox img{
-		box-shadow: 0px 0px 30px #EEEEEE;
-		margin-top: 1.5em;
+		margin-top: 0.5em;
+		margin-bottom: 2.5em;
 }
 
 img {
   max-width: 100%;
   max-height: 80vh;
 	margin: auto;
+}
+
+.styleguide{
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 .bg {
@@ -288,8 +300,33 @@ code{
 
 .user-test h4{
 	color: #ad0000;
+	font-weight: bold;
+	margin-bottom: 0;
+  margin-top: 1.75em;
 }
 
 #news img{
 	box-shadow: none;
+}
+
+.animate {
+	visibility: visible;
+	font-size: 5em;
+	transform: translate(0, 50%);
+	animation-name: home-t;
+	animation-duration: 4s;
+	animation-direction: alternate;
+	animation-fill-mode: both;
+	animation-timing-function: ease-in-out;
+  transform-origin: 0 50%;
+}
+
+@keyframes home-t {
+	from{
+		transform: scale(1);
+	}
+	to{
+		transform: scale(1.2);
+	}
+
 }

@@ -8,8 +8,13 @@
 }
 
 .grid-col-main{
-	width:80%;
+	width: 100%;
   padding:0 1.5em 0 1.5em;
+}
+
+.grid-col-alt{
+  width: 70%;
+  padding: 0 1.5em 0 1.5em;
 }
 
 .grid-col-1of2{

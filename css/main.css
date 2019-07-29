@@ -309,6 +309,25 @@ code{
 	box-shadow: none;
 }
 
+.project-page img{
+		box-shadow: none;
+}
+.footer-div a{
+	color: #ad0000;
+	text-decoration: none;
+}
+#footer{
+	background: #fafafa;
+	margin-bottom: 0;
+	padding-top: 0.5em;
+	font-size: 0.8em;
+}
+#footerTitle{
+	color: #ad0000;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
 .animate {
 	visibility: visible;
 	font-size: 5em;

@@ -6,7 +6,7 @@
 	src: url('../tt-commons/TTCommons-Regular.ttf');
 
 }
-/* 
+/*
 @font-face {
 	font-family: 'TTCommons';
 	font-weight: lighter;
@@ -20,5 +20,13 @@
 	font-weight: bold;
 	font-style: normal;
 	src: url('../tt-commons/TTCommons-Bold.ttf');
+
+}
+
+@font-face {
+	font-family: 'Brandon Grotesque';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../Brandon-g/Brandon_blk.otf');
 
 }

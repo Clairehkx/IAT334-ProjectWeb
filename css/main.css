@@ -8,7 +8,7 @@ section{
 	margin-bottom: 3rem;
 }
 
-.product-list a{
+/* .product-list a{
 	text-decoration: none;
 	font-family: 'TTCommons';
 	font-size: 18px;
@@ -28,7 +28,7 @@ section{
 
 .product-list img{
 	border-radius: 8px;
-}
+} */
 
 h1{
 	font-family: 'TTCommons';
@@ -94,7 +94,7 @@ a.logo:hover {
 
 .nav-item:active,.nav-item:hover{
 	color: #a10000;
-	text-decoration: underline;
+	/* text-decoration: underline; */
 }
 
 .navtop{

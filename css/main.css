@@ -313,3 +313,21 @@ code{
 	margin: 3em 0 0 0;
 	text-align: left;
 }
+
+.workflow a{
+	text-decoration: underline;
+	color: #ad0000;
+}
+
+.workflow-full img{
+	max-width: 100%;
+  max-height: 100%;
+	margin: auto;
+}
+
+.grid-flow{
+	width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5rem;
+}

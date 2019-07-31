@@ -73,7 +73,7 @@ nav{
 .wrapper {
 	background-color: #fafafa;
 	margin: 0;
-	padding: 0;
+	padding:0 ;
 }
 
 .nav-item{
@@ -309,43 +309,7 @@ code{
 	box-shadow: none;
 }
 
-.project-page img{
-		box-shadow: none;
-}
-.footer-div a{
-	color: #ad0000;
-	text-decoration: none;
-}
-#footer{
-	background: #fafafa;
-	margin-bottom: 0;
-	padding-top: 0.5em;
-	font-size: 0.8em;
-}
-#footerTitle{
-	color: #ad0000;
-	font-weight: bold;
-	font-size: 1.2em;
-}
-
-.animate {
-	visibility: visible;
-	font-size: 5em;
-	transform: translate(0, 50%);
-	animation-name: home-t;
-	animation-duration: 4s;
-	animation-direction: alternate;
-	animation-fill-mode: both;
-	animation-timing-function: ease-in-out;
-  transform-origin: 0 50%;
-}
-
-@keyframes home-t {
-	from{
-		transform: scale(1);
-	}
-	to{
-		transform: scale(1.2);
-	}
-
+#reference h1{
+	margin: 3em 0 0 0;
+	text-align: left;
 }
